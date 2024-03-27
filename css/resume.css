@@ -1,3 +1,6 @@
+/* Viewport Meta Tag */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 body {
   font-family: 'Roboto', sans-serif;
   padding-top: 54px;
@@ -6,7 +9,6 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
     padding-left: 17rem;
   }
 }
@@ -24,19 +26,19 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 3.5rem; /* Adjusted for smaller screens */
+  line-height: 3.5rem; /* Adjusted for smaller screens */
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem; /* Adjusted for smaller screens */
 }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.2rem; /* Adjusted for smaller screens */
 }
 
 .list-social-icons a {
@@ -48,11 +50,11 @@ h2 {
 }
 
 .list-social-icons a .fa-lg {
-  font-size: 1.75rem;
+  font-size: 1.5rem; /* Adjusted for smaller screens */
 }
 
 .list-icons {
-  font-size: 3rem;
+  font-size: 2rem; /* Adjusted for smaller screens */
 }
 
 .list-icons .list-inline-item i:hover {
@@ -66,41 +68,7 @@ h2 {
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
-  }
-  #sideNav .navbar-brand {
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
+    width: 15rem; /* Adjusted for smaller screens */
   }
 }
 
@@ -115,16 +83,16 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: auto; /* Adjusted for smaller screens */
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: 15rem; /* Adjusted for smaller screens */
   }
 }
 
 @media (min-width: 992px) {
   section.resume-section {
-    /* padding: 1rem 0 !important; */
+    padding: 1rem 0 !important; /* Adjusted for smaller screens */
   }
 }
 
@@ -145,4 +113,3 @@ a:focus,
 a:active {
   color: #cd4232;
 }
-
